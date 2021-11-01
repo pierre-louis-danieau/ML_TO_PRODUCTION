@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov  1 07:39:51 2021
+
+@author: pierrelouis
+"""
+
+FROM python:3.5-slim
+MAINTAINER pl.danieau@gmail.com
+USER root
+WORKDIR /app
+ADD . /app
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+EXPOSE 80
+ENTRYPOINT ["python", "app.py"]
