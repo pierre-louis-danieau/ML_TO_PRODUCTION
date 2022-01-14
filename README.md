@@ -1,4 +1,4 @@
-# Web-App-Machine-Learning-Deployment-on-AWS
+# Web App Machine-Learning Deployment on AWS
 
 ## Introduction :
 
