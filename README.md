@@ -1,12 +1,13 @@
 # Web App Machine-Learning Deployment on AWS
 
-## Introduction :
+## 🎯 Introduction :
 
 - Deployment of NLP model into the cloud in AWS in order to make instant classification on a Tweet. We classify if a tweet has a disaster part (earthquake, floods...) or not.
 
 - The main goal is not the Machine Learning part which is quite classic (TF-IDF matrix with Logistic regression) but the deployment part on AWS with EC2 instance.
 
-## Short explanation on what I do to make instant classification accessible from the web everywhere and everytime
+## Short explanation of the projetc 
+*Make instant classification accessible from the web everywhere and everytime*
 
 * [Part 1 : Develop the ML code in jupyter](#chapter1)
 
